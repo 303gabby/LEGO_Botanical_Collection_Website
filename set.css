@@ -1,0 +1,246 @@
+body{
+    font-family: "Satoshi";
+    margin: 0;
+    padding: 2rem;
+    background-color: #3247D4;
+    color: white;
+}
+* {
+    transition: all 0.3s ease;
+  }
+#set-img-nav{
+ 
+    padding-top: 20px;
+    padding-right: 45%;
+}
+.set-nav{
+   font-family:"Helvetica Neue";
+   list-style: none;
+   text-decoration: none;
+   font-size: 37px;
+   color: #FEE227;
+   display: inline-block;
+}
+#sts{
+    color: #0055BF;
+ }
+
+#intro{
+    width: 100%;
+    margin-top: 5%;
+    background-color: #3247D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+#intr02{
+    width: 100%;
+    margin-top: 15%;
+    background-color: #3247D4;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+button{
+    background-color:#FEE227;
+    height: 60px;
+    font-family: "Satoshi";
+    color: #0055BF;
+    font-weight: 700;
+    border:0px ;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color:#3451A3;
+    color: #FEE227;
+    border: 2px solid;
+    cursor: pointer;
+}
+.ight{
+background-color: white;
+   width: 330px;
+   height: 330px;
+
+   border-radius: 20px;
+   display: flex;
+flex-direction: column;
+align-content: flex-start;
+justify-content: space-around;
+align-items: center;
+  
+}
+.ight.img{
+    display: flex;
+    justify-content: center;
+    border: 5px solid;
+    border-color: #BEE1F4;
+    padding: 20px;
+}
+      a.set-nav:hover{
+        padding: 10px;
+        color: #FEE227;
+        text-decoration: none;
+        border: 3px solid;
+        border-radius: 4px;
+         }
+a:link{
+   
+    text-decoration: none;
+}
+
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: inline-block; 
+}
+
+ul.snn{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top:0;
+    padding-bottom: 3%;
+    margin: 0%;
+    background-color:#3247D4;
+}
+h1 {
+    font-family:"Satoshi";
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.parts-grid {
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.part-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.part-card:hover {
+    transform: translateY(-5px);
+}
+
+.part-image-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 150px;
+    
+  
+}
+
+.part-image {
+    max-width: 100%;
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.part-info {
+    padding: 0.8rem;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.blue-card .part-info {
+    font-family:"Helvetica Neue";
+    background-color:#BEE1F4;
+    color: black;
+}
+
+.yellow-card .part-info {
+    font-family:"Helvetica Neue";
+    background-color:#FEE227;
+    color: #3247D4;
+}
+
+.red-card .part-info {
+    font-family:"Helvetica Neue";
+    background-color: #D31B20;
+    color: #FEE227;
+}
+
+.black-card .part-info {
+    font-family:"Helvetica Neue";
+    background-color: #3451A3;
+    color: #BEE1F4;
+}
+
+.part-name {
+    font-family:"Helvetica Neue";
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .parts-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .parts-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .parts-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.ight.img{
+    padding: 20px;
+}
+h2{
+    font-family: "Satoshi";
+    color: #FEE227;
+}
+#set-parts{
+    
+    font-family: "Satoshi";
+    color: #FEE227;
+}
+#set-year{
+    font-family: "Satoshi";
+    color: #FEE227;
+}
+.set-2{
+    color: #FEE227;
+    font-family: "Satoshi";
+    padding-top: 25%;
+    font-size: 32px;
+}
+#hi{
+    color: #FEE227
+}
+#bbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
